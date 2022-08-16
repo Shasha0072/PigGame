@@ -77,8 +77,7 @@ btnHold.addEventListener('click', () => {
       playing = false;
       document
         .querySelector(`.player--${activePlayer}`)
-        .classList.add('player--
-        ');
+        .classList.add('player--winner');
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove('player--active');
